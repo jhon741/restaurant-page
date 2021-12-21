@@ -12,7 +12,7 @@ const getHero = () => {
   middleContent.classList.add('middle-content')
 
   const title = document.createElement('h1')
-  title.textContent = 'DULCE CANELA'
+  title.textContent = 'CANELA CAFE'
 
   const span = document.createElement('span')
   span.textContent = 'misky kallariy'
