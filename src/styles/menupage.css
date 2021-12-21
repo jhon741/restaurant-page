@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Sans-Narrow';
+  src: url('../fonts/PTSansNarrow-Regular.ttf');
+}
+
+.menu-page {
+  max-width: 800px;
+  background-color: #c0efff;
+  margin: 0 auto; 
+  padding-top: 25px;
+  font-family:'Sans-Narrow', 'Courier New', Courier, monospace;
+}
+
+.menu-page h2 {
+  margin: 0;
+}
+
+.menu-page .menu-list {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.menu-page > h2 {
+  text-align: center;
+}
+
+.menu-list .item div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-list .item .item-info p{
+  display: block;
+  width: 80%;
+}

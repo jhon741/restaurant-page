@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Sans-Narrow';
+  src: url('../fonts/PTSansNarrow-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inspiration';
+  src: url('../fonts/Inspiration-Regular.ttf');
+}
+
+.hero-container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+  height: 50vh;
+}
+
+.hero {
+  display: flex;
+  background-image: url('../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 100%;
+}
+
+.middle-content {
+  display: flex;
+  background-color: rgba(71, 70, 70, 0.5);
+  width: 100%;
+  height: 33%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.middle-content .btn {
+  background-color: crimson;
+  color: black;
+  padding: 5px 17px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Sans-Narrow';
+  font-size: 1.5rem;
+}
+
+.middle-content .btn:hover {
+  background-color: rgb(251, 24, 69);
+}
+
+.hero h1 {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  font-family: 'Sans-Narrow';
+  color: white;
+  margin: 0;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero h1 span {
+  margin-left: 10px;
+  font-family: 'Inspiration';
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}

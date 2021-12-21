@@ -1,0 +1,23 @@
+.container {
+  max-width: 800px;
+  background-color: lightblue;
+  margin: 0 auto;
+}
+
+.container h2 {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.section-container {
+  display: flex;  
+}
+
+.section-container .left-column, .section-container .rigth-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
